@@ -31,3 +31,21 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+.cooldancer{
+/*  width: 0;
+  height: 0;*/
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid blue;
+  
+ 
+/*  border:10px solid blue;
+  border-radius:10px;
+  position:absolute;*/
+}
+
+.cooldancer:hover {
+    width: 300px;
+}
