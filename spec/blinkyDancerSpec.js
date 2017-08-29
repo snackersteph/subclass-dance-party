@@ -17,7 +17,7 @@ describe('blinkyDancer', function() {
     blinkyDancer.step();
     expect(blinkyDancer.$node.toggle.called).to.be.true;
   });
-
+  console.log("is it working?")
   describe('dance', function() {
     it('should call step at least once per second', function() {
       sinon.spy(blinkyDancer, 'step');
